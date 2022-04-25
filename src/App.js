@@ -1,12 +1,14 @@
 
 import './App.css';
+import Crypto from './components/Crypto';
 
 function App() {
 
 
   return (
-    <div className="App">
-     <h1>Ranking Crypto</h1>
+    <div className="container-fluid">
+      <h1 className='text-center mt-5'> CryptoCoin Ranking</h1>
+      <Crypto/>
     </div>
   );
 }
