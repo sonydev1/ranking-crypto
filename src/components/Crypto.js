@@ -44,8 +44,8 @@ const Crypto = () => {
     return (
         <div >
             <input vale={search} onChange={searcher} type='text' placeholder='search...' className='form-control mt-5 ' />
-
-            <table className='table table-dark table-hover mt-3 text-center'>
+            <div className='table-responsive-sm' >
+            <table className='table  table-dark table-hover mt-3 text-center'>
                 <thead>
                     <tr>
                         <th>Ranking</th>
@@ -80,7 +80,8 @@ const Crypto = () => {
 
                     }
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
     )
 }
